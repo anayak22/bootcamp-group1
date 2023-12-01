@@ -1,0 +1,63 @@
+.topic {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .background{
+    background-image: url("https://images.rawpixel.com/image_600/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLXMxMTMtYWstNTEyMy1zcy0wMi5qcGc.jpg");
+    background-repeat: vertical;
+    background-size: 100%;
+  }
+  header {
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #facts{
+    color: azure;
+  }
+  
+  #container {
+    min-height: 100vh;
+    display: flex;
+    padding: 4em;
+    padding-top: 1em;
+  }
+  
+  .left{
+    width: 50vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  img{
+    width : 300px;
+  }
+  
+  .box{
+    text-align:center;
+  }
+  
+  .right{
+    width: 50vw;
+    background-color: #98C9FF;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center
+  }
+  
+  h3{
+    font-size: x-large;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
