@@ -1,25 +1,33 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {Link} from 'react-router-dom'
 import './NavBar.css';
 
-function NavBar() {
+cosnt NavBar() {
     return (
-        <BrowserRouter>
-    <Switch>
-      <Route path="/ashna">
-        <Ashna />
-      </Route>
-      <Route path="/emily">
-        <Emily />
-      </Route>
-      <Route path="/sharvari">
-        <Sharvari />
-      </Route>
-      <Route exact path="/">
-        <Home />
-      </Route>
-    </Switch>
-    </BrowserRouter>
+      <div id="navbar-rectangle">
+        <div id = "inner-rectangle">
+          <h1 id = "title">Team 1</h1>
+        </div>
+        <div id="group1">
+        <div class="tab">
+        <Link to="/ashna">Ashna</Link>
+        </div>
+        <div class="tab">
+        <Link to="/aram">Aram</Link>
+        </div>
+        <div class="tab">
+        <Link to="/emily">Emily</Link>
+        </div>
+        <div class="tab">
+        <Link to="/margaret">Margaret</Link>
+        </div>
+        <div class="tab">
+        <Link to="/sharvari">Sharvari</Link>
+        </div>
+        </div>
+      </div>
+        
     );
 }
 export default NavBar;
