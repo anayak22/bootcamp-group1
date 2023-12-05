@@ -1,6 +1,12 @@
 #inner-rectangle{
-    width: 25%;
-    background-color: #7F8FE3;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 235px;
+    background-color: #99a5e9;
+    border-color: transparent;
+    height: 75px;
+    
 }
 
 #navbar-rectangle{
@@ -13,12 +19,13 @@
     align-items: center;
     
 }
-#titleNav {
-    color: 'white';
-    font-size: 15;
+.titleNav {
+    color: white;
+    font-size: 31px;
     font-family: 'Montserrat';
-    font-weight: '400';
+    font-weight: bolder;
     word-wrap: 'break-word';
+    text-decoration: none;
 }
 
 #group1{
@@ -26,15 +33,19 @@
     flex-direction:row;
     width: 50%;
     height: 25;
-    position: 'relative';
     align-items:end;
     align-self: right;
+    justify-content: flex-end;
+    margin-right: 75px;
 }
 
-.tab {
-    font-size: 25px;
+
+.link {
+    text-decoration: none;
+    font-size: 22px;
     color: black;
-    padding-right: 35px;
-    padding-left: 35px;
+    margin-right: 38px;
+    margin-left: 38px;
     font-family: 'Montserrat';
+    text-decoration: none;
 }

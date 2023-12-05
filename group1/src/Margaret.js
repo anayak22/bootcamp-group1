@@ -5,7 +5,7 @@ function Margaret() {
     return (
         <div className="App">
         <h1>About Me</h1>
-        <h2>Margaret Kato (she/her)</h2>
+        <h2 id = "MargName" style={{ fontFamily: 'Garamond, Verdana, sans-serif', backgroundColor: 'transparent', color: 'rgb(240, 235, 235)' }}>Margaret Kato (she/her)</h2>
  
         <div className="Movies"> 
         <h3 className="title">Favorite Movies</h3>

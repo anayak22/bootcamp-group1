@@ -16,7 +16,7 @@ function Ashna() {
         <div id = "introduction">
             <title>About Me</title>
             <h1 id = "title">Ashna Nayak</h1>
-            <h2>Freshman studying Computer Science and Math</h2>
+            <h2 id = "bio">Freshman studying Computer Science and Math</h2>
             <img src = {profilePic} id = "aboutMeImage"></img>
             <p> Hey everyone! I am really thrilled about joining Bootcamp this semester. See some of my favorites below!</p>
             <p>links to my social media. Feel free to venmo me - I'm broke -</p>
@@ -145,7 +145,7 @@ function Ashna() {
             </div>
         </div>
         <hr class = "longBreak"></hr>
-        <h1>pics of my cat joey ♡ buh-bye</h1>
+        <h1 id="joeybio">pics of my cat joey ♡ buh-bye</h1>
         <div id = "joey">
             
             <div class = "pic">

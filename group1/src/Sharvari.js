@@ -5,13 +5,13 @@ function Sharvari() {
   return (
     <div className="body">
       <div className="titleSharvari">
-        <h1>
+        <h1 style = {{fontFamily: "'Arial', sans-serif"}}>
           <center>About Me: Sharvari Tirodkar</center>
         </h1>
       </div>
 
       <div className="content">
-        <h3>
+        <h3 style = {{color: 'black',fontFamily: "'Arial', sans-serif"}}>
           <center>Favorite Movies</center>
         </h3>
         <ul>
@@ -23,7 +23,7 @@ function Sharvari() {
       <br />
 
       <div className="content">
-        <h3>
+        <h3 style = {{color:'black',fontFamily: "'Arial', sans-serif"}}>
           <center>Hobbies</center>
         </h3>
         <ul>
@@ -36,7 +36,7 @@ function Sharvari() {
       <br />
 
       <div className="content">
-        <h3>
+        <h3 style = {{color: 'black', fontFamily: "'Arial', sans-serif"}}>
           <center>Favorite Artists</center>
         </h3>
         <dl>

@@ -26,11 +26,13 @@
   .content ul,
   .content dl {
     list-style-type: none;
+    color: black;
   }
   
   .content ul li,
   .content dl dd {
     margin: 5px 0;
+    color: black;
   }
   
   /* Adjust the styles as needed */

@@ -2,6 +2,9 @@
     background-color: blue;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:cornsilk;
+    padding-top: 10px;
+    align-items: center;
+    align-self: center;
 }
 
 #riddle {
@@ -10,8 +13,20 @@
 
 .heading {
     font-weight: 500;
+    align-self: center;
+    align-items: center;
+    text-align: center;
 }
 
 ul li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    align-items: center;
+    align-self:center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
