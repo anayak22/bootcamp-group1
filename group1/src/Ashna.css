@@ -1,1 +1,171 @@
-/*Enter your about me css here */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+.bodyAshna {
+    background: #CEDFDF;
+    font-family: 'DM Sans', sans-serif;
+    text-align:center;
+    color: black;
+    
+
+}
+#introduction {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#title {
+    font-size: 50px;
+    text-align: center;
+}
+
+:is(h1,h2,h3)
+{
+    text-align: center;
+    margin-top:2%;
+    margin-bottom: 2%;
+    color: #324d4d;
+}
+
+.favThings {
+    width: 75%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 25px 25px 25px 25px;
+    align-self: center;
+    background: #AFCBCB;
+    border-radius: 25px;
+    
+}
+
+.thing {
+    display:flex;
+    width: 25%;
+    align-content:center;
+    justify-content:center;
+    flex-flow: column wrap;
+
+
+}
+
+.thing img {
+    width: 225px;
+    height: auto;
+}
+
+
+#aboutMeImage {
+    width: 301px;
+    height: auto;
+    border: 10px solid #324d4d;
+    border-radius: 50%;
+}
+
+#socialmedia {
+    display:flex;
+    width: 18%;
+    flex-flow: row wrap;
+    border-radius: 15px;
+    margin: auto;
+    padding: 25px 25px 25px 25px;
+}
+
+.app img {
+    width: 75px;
+    height: auto;
+    border-color:transparent;
+}
+
+
+img:hover {
+    opacity: 0.6;
+}
+
+#music img {
+    width: 385px;
+    height: auto;
+    border: 10px solid #324d4d;
+    border-radius: 8px;
+}
+
+
+.app {
+    width: 33%;
+    align-content: center;
+    justify-content: center;
+}
+
+.tinyBreak {
+    border: 10px solid #324d4d;
+    border-radius: 5px;
+    height: 0px;
+    width: 7%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+}
+
+.longBreak {
+    border: 10px solid #324d4d;
+    border-radius: 5px;
+    height: 0px;
+    width: 50%;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+
+}
+
+#music {
+    text-align:center;
+}
+
+li {
+    display: list-item;
+    list-style-position: inside;
+    text-align: left;
+    font-size: 30px;
+    color: #324d4d;
+  }
+
+#hobbyItems {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 13px 13px 13px 13px;
+
+
+}
+#joey {
+    width: 75%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 25px 25px 25px 25px;
+    align-self: center;
+    background: #AFCBCB;
+    border-radius: 25px;
+    
+}
+
+.pic {
+    display:flex;
+    width: 18%;
+    height:auto;
+    align-content:center;
+    justify-content:center;
+    flex-flow: column wrap;
+
+}
+
+.pic img {
+    width: 250px;
+    margin: 10px;
+}

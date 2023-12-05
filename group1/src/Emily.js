@@ -1,4 +1,5 @@
 import './Emily.css';
+import profilePic from './Emily.JPEG'
 
 function Emily() {
   return (
@@ -11,7 +12,7 @@ function Emily() {
             <div id="container">
                 <div class="left">
                     <div class="box">
-                        <img src={"./Emily.JPEG"} alt="pic"/>
+                        <img src={profilePic} alt="pic"/>
                     </div>
                     <h3 class="box"> My name is Emily </h3>
                     <p class="box"> I'm a junior CS student</p>

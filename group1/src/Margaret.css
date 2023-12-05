@@ -1,1 +1,113 @@
-/*Enter your about me css here */
+.App {
+    text-align: center;
+    background-color: rgb(89, 80, 126);
+    max-height: 100%;
+  }
+  
+  .Movies, .Hobbies{
+    background-color :#352a50;
+      padding: 10px;
+      border-radius: 15px;
+      margin: 20px;
+      text-align: center;
+  }
+  
+  .Images-Container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Movie-Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%; 
+    box-sizing: border-box; 
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
+  }  
+  
+  ul{
+    text-align:center;
+    background-color:transparent;
+    list-style-position: inside;
+  }
+  
+  li{
+    background-color: transparent;
+    color: rgb(240, 235, 235);
+  }
+  
+  h1{
+    font-family: Garamond;
+    font-style:bold;
+    background-color: transparent;
+    color: rgb(240, 235, 235);
+    padding-top: 10px;
+  }
+  
+  h2{
+    font-family: Garamond, Verdana, sans-serif;
+    background-color:transparent;
+    color: rgb(240, 235, 235);
+  
+  }
+  
+  h3{
+    font-family: Garamond, Verdana, sans-serif;
+    background-color: transparent;
+    color: rgb(240, 235, 235);
+  
+  }
+  
+  p{
+    font-style:italic;
+    background-color:transparent;
+    color: rgb(240, 235, 235);
+  
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

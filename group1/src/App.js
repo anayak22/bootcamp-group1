@@ -1,36 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {Link, BrowserRouter, Route, Routes} from 'react-router-dom';
 import Ashna from './Ashna'
 import Emily from'./Emily'
 import Sharvari from './Sharvari'
 import Aram from './Aram'
 import NavBar from './NavBar'
+import Home from './Home'
+import Margaret from './Margaret'
+
 
 function App() {
   return (
     <div>
-    <NavBar />
+      
+      <BrowserRouter>
+        <div className="navBar">
+        <NavBar />
+        </div>
 
-    <BrowserRouter>
-    <Switch>
-      <Route path="/ashna">
-        <Ashna />
-      </Route>
-      <Route path="/aram">
-        <Aram />
-      </Route>
-      <Route path="/emily">
-        <Emily />
-      </Route>
-      <Route path="/sharvari">
-        <Sharvari />
-      </Route>
-      <Route exact path="/">
-        <Home />
-      </Route>
-    </Switch>
-    </BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/aram" element={<Aram/>} />
+            <Route path="/ashna" element={<Ashna/>} />
+            <Route path="/emily" element={<Emily/>} />
+            <Route path="/margaret" element={<Margaret/>} />
+            <Route path="/sharvari" element={<Sharvari/>} />
+           
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

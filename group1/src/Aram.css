@@ -1,1 +1,17 @@
-/*Enter your about me css here */
+.AppAram {
+    background-color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:cornsilk;
+}
+
+#riddle {
+    font-size: larger;
+}
+
+.heading {
+    font-weight: 500;
+}
+
+ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
