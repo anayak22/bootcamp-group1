@@ -2,6 +2,7 @@
     text-align: center;
     background-color: rgb(89, 80, 126);
     max-height: 100%;
+    padding-top: 10px;
   }
   
   .Movies, .Hobbies{
@@ -60,7 +61,7 @@
     padding-top: 10px;
   }
   
-  h2{
+  #MargName{
     font-family: Garamond, Verdana, sans-serif;
     background-color:transparent;
     color: rgb(240, 235, 235);

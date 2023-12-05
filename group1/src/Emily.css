@@ -1,5 +1,6 @@
 .topic {
     font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
   }
   .background{
     background-image: url("https://images.rawpixel.com/image_600/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLXMxMTMtYWstNTEyMy1zcy0wMi5qcGc.jpg");
@@ -10,6 +11,7 @@
     padding-top: 1em;
     display: flex;
     justify-content: center;
+    color: black;
   }
   
   #facts{

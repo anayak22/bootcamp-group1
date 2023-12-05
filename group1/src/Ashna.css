@@ -4,6 +4,7 @@
     font-family: 'DM Sans', sans-serif;
     text-align:center;
     color: black;
+    padding-top: 10px;;
     
 
 }
@@ -16,14 +17,43 @@
 #title {
     font-size: 50px;
     text-align: center;
+    color: #324d4d;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 1px;
+    
 }
 
-:is(h1,h2,h3)
-{
+#hobbies h1 {
+    color:black;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#joey h1 {
+    color: black;
+}
+
+#joeybio {
+    color: black;
+    font-family: 'DM Sans', sans-serif;
     text-align: center;
-    margin-top:2%;
-    margin-bottom: 2%;
+}
+
+#music h1, #music h3 {
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+#bio h2{
     color: #324d4d;
+    text-align: center;
+}
+
+#introduction p{
+    color: black;
+    text-align: center;
+    font-style:normal;
 }
 
 .favThings {
@@ -53,6 +83,7 @@
 .thing img {
     width: 225px;
     height: auto;
+    padding: 0;
 }
 
 
@@ -61,6 +92,7 @@
     height: auto;
     border: 10px solid #324d4d;
     border-radius: 50%;
+    padding:0;
 }
 
 #socialmedia {
@@ -88,6 +120,7 @@ img:hover {
     height: auto;
     border: 10px solid #324d4d;
     border-radius: 8px;
+    padding: 0;
 }
 
 
@@ -123,7 +156,7 @@ img:hover {
     text-align:center;
 }
 
-li {
+#hobbyItems li {
     display: list-item;
     list-style-position: inside;
     text-align: left;
@@ -168,4 +201,6 @@ li {
 .pic img {
     width: 250px;
     margin: 10px;
+    padding: 0;
+
 }

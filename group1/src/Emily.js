@@ -5,7 +5,7 @@ function Emily() {
   return (
     <div class="background">
         <header>
-            <h1> Welcome to My Page! </h1>
+            <h1 style={{color: 'black'}}> Welcome to My Page! </h1>
         </header>
 
         <body>
@@ -14,8 +14,8 @@ function Emily() {
                     <div class="box">
                         <img src={profilePic} alt="pic"/>
                     </div>
-                    <h3 class="box"> My name is Emily </h3>
-                    <p class="box"> I'm a junior CS student</p>
+                    <h3 class="box" style={{color: 'black'}}> My name is Emily </h3>
+                    <p class="box" style={{color: 'black'}}> I'm a junior CS student</p>
                 </div>
                 <div class="right">
                     <h3 class="box"> Here are some quick facts about me: </h3>
