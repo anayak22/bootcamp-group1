@@ -1,1 +1,37 @@
-/*Enter your about me css here */
+.body {
+    font-family: 'Arial', sans-serif;
+    background-color: DarkSeaGreen;
+  }
+  
+  .titleSharvari {
+    background-color: DarkSlateGrey;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .content {
+    background-color: HoneyDew;
+    border-width: 8px;
+    border-style: double;
+    border-color: #496047;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Additional styles specific to the content sections can be added here */
+  .content ul,
+  .content dl {
+    list-style-type: none;
+  }
+  
+  .content ul li,
+  .content dl dd {
+    margin: 5px 0;
+  }
+  
+  /* Adjust the styles as needed */
+  

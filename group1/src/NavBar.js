@@ -3,11 +3,11 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import {Link} from 'react-router-dom'
 import './NavBar.css';
 
-cosnt NavBar() {
+function NavBar() {
     return (
       <div id="navbar-rectangle">
         <div id = "inner-rectangle">
-          <h1 id = "title">Team 1</h1>
+          <Link id = "title" to="/">Team 1</Link>
         </div>
         <div id="group1">
         <div class="tab">
