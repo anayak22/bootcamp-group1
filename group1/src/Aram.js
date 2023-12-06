@@ -38,7 +38,7 @@ function Aram() {
         and April that can’t be seen at the beginning or end of either month?
       </h2>
       <input type="text" value={answer} onChange={handleInputChange} />
-      {isCorrect && <p>Congratulations! You solved the riddle.</p>}
+      {isCorrect && <p style = {{textAlign:'center', fontStyle:'normal'}}>Congratulations! You solved the riddle.</p>}
     </div>
   );
 }
