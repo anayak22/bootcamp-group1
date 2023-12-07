@@ -27,12 +27,14 @@
   .content dl {
     list-style-type: none;
     color: black;
+    text-align:center;
   }
   
   .content ul li,
   .content dl dd {
     margin: 5px 0;
     color: black;
+    text-align:center;
   }
   
   /* Adjust the styles as needed */

@@ -16,7 +16,7 @@ function Home() {
                 <div className = "profileHome">
                     <img src = "https://wallpapers.com/images/hd/christmas-cartoon-pictures-9ium898b149dc4uf.jpg"></img>
                     <p>Role: Tech Lead</p>
-                    <p>Name: Aram Zaproysan </p>
+                    <p>Name: Aram Zaprosyan </p>
                     <p>Year: Sophomore </p>
                 </div>
                 <div className = "profileHome">
